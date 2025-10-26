@@ -12,7 +12,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://unimailpro.vercel.app", // your deployed frontend
+      "https://uni-mail-pro.vercel.app", // your deployed frontend
       "http://localhost:5173" // optional: for local development
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
